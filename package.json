@@ -5,6 +5,9 @@
   "repository": "git@github.com:screendriver/zeit-now-typescript-project-references.git",
   "author": "Christian Rackerseder <git@echooff.de>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc --build"
+  },
   "devDependencies": {
     "typescript": "3.3.4000"
   }
