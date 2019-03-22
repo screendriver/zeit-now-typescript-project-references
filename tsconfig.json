@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./src/one" },
+    { "path": "./src/two" },
+    { "path": "./src/shared" }
+  ]
+}
