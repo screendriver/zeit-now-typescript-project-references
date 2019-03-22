@@ -1,0 +1,8 @@
+{
+  "name": "zeit-now-typescript-project-references",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:screendriver/zeit-now-typescript-project-references.git",
+  "author": "Christian Rackerseder <git@echooff.de>",
+  "license": "MIT"
+}
