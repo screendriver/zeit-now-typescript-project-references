@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "zeit-now-typescript-project-references",
+  "regions": ["bru"],
+  "builds": [
+    { "src": "dist/src/one/index.js", "use": "@now/node" },
+    { "src": "dist/src/two/index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    {
+      "src": "/one",
+      "methods": ["GET"],
+      "dest": "/dist/src/one/index.js"
+    },
+    {
+      "src": "/two",
+      "methods": ["GET"],
+      "dest": "/dist/src/TWO/index.js"
+    }
+  ]
+}
