@@ -9,6 +9,7 @@
     "build": "tsc --build"
   },
   "devDependencies": {
+    "@types/node": "11.11.5",
     "typescript": "3.3.4000"
   }
 }
